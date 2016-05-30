@@ -29,7 +29,7 @@ function Instamojo_remote_checkout_button_updater($new_payment_link, $payment_bu
 //Example input:
 
 $button_html = '<a href="https://www.instamojo.com/ashwch/test-magento/" rel="im-checkout" data-behavior="remote" data-style="light" data-text="Checkout with Instamojo" data-token="3bcde71b220ccc7bc44dba0881894f47"></a><script src="https://d2xwmjc4uy2hr5.cloudfront.net/im-embed/im-embed.min.js"></script>';
-$new_payment_link = 'https://www.instamojo.com/Sameeraggarwal/wealth-advice/?embed=form&data_readonly=data_amount&data_readonly=data_email&data_readonly=data_name&data_readonly=data_phone&data_hidden=data_Field_8546&data_sign=1b850dc20cd4ab47b45cf480bc8225dd7627ce2d&data_amount=10&data_email=sam@sam.com&data_name=asasa&data_phone=1234567890&data_Field_8546=ADVSR1000013';
+$new_payment_link = 'https://www.instamojo.com/ashwch/test-magento/?embed=form&data_readonly=data_amount&data_readonly=data_email&data_readonly=data_name&data_readonly=data_phone&data_hidden=data_Field_8546&data_sign=1b850dc20cd4ab47b45cf480bc8225dd7627ce2d&data_amount=10&data_email=sam@sam.com&data_name=asasa&data_phone=1234567890&data_Field_8546=ADVSR1000013';
 $new_button_html = Instamojo_remote_checkout_button_updater($new_payment_link, $button_html);
 
 /*
